@@ -217,7 +217,7 @@
 <header>
 	<div class="container">
 		<span class="showSide"></span>
-		<a class="brand" href="#"><%=boardinfo.hostname or "?"%></a>
+		<a class="brand" href="#"><%=boardinfo.hostname or "?"%> by Revamp Software, Inc.</a>
 		<div class="pull-right">
 			<% render_changes() %>
 			<span id="xhr_poll_status" style="display:none" onclick="XHR.running() ? XHR.halt() : XHR.run()">
